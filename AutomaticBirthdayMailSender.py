@@ -1,12 +1,3 @@
-'''
-Birthday Email Sender
--------------------------------------------------------------
-pip install pandas openpyxl
-excel file cols:
-Name, Email, Birthday (MM/DD/YYYY), Last Sent (YYYY)
-'''
-
-
 import pandas as pd
 from datetime import datetime
 import smtplib
